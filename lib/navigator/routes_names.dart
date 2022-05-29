@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/screens/about/about.dart';
 import 'package:portfolio/screens/home/home.dart';
 
 import 'package:portfolio/widgets/appbar/desktop_appbar.dart';
@@ -66,13 +67,9 @@ class _PageControllerState extends State<PageController1> {
               );
             },
           ),
-          HomePage(
-            callback: () {
-              setState(
-                () {},
-              );
-            },
-          )
+          About(callback: () {
+            setState(() {});
+          })
         ],
       ),
     );
