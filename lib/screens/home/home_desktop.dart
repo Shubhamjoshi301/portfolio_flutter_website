@@ -30,137 +30,115 @@ class HomeDesktop extends StatelessWidget {
     double width = MediaQuery.of(context).size.width;
     return Container(
       color: Theme.of(context).colorScheme.primary,
-      height: height - 50,
+      height: height,
       width: width,
-      child: Stack(
-        children: [
-          // Positioned(
-          //   top: width < 1200 ? height * 0.05 : height * 0.05,
-          //   right: width * 0.15,
-          //   child: Opacity(
-          //     opacity: 1,
-          //     child: EntranceFader(
-          //       offset: const Offset(0, 100),
-          //       delay: const Duration(seconds: 1),
-          //       duration: const Duration(milliseconds: 800),
-          //       child: Image.asset(
-          //         'assets/images/shubhamp.png',
-          //         height: height,
-          //         // width: 1000,
-          //       ),
-          //     ),
-          //   ),
-          // ),
-          Container(
-            margin:
-                EdgeInsets.fromLTRB(width * 0.1, height * 0.2, width * 0.1, 0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+      child: Container(
+        margin: EdgeInsets.fromLTRB(width * 0.1, height * 0.1, width * 0.1, 0),
+        child: ListView(
+          // crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              mainAxisSize: MainAxisSize.min,
               children: [
-                Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    AdaptiveText(
-                      "WELCOME TO MY PORTFOLIO! ",
-                      style: GoogleFonts.montserrat().copyWith(
-                          color: Theme.of(context).colorScheme.secondary,
-                          fontSize: width * 0.015,
-                          fontWeight: FontWeight.normal),
-                    ),
-                    EntranceFader(
-                      offset: const Offset(0, 0),
-                      delay: const Duration(seconds: 2),
-                      duration: const Duration(milliseconds: 800),
-                      child: Image.asset(
-                        "assets/images/4AIB.gif",
-                        height: height * 0.1,
-                      ),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: height * 0.04,
-                ),
                 AdaptiveText(
-                  "Shubham",
+                  "WELCOME TO MY PORTFOLIO! ",
                   style: GoogleFonts.montserrat().copyWith(
                       color: Theme.of(context).colorScheme.secondary,
-                      fontSize: width * 0.085,
-                      fontWeight: FontWeight.normal),
-                ),
-                AdaptiveText(
-                  "Joshi",
-                  style: GoogleFonts.montserrat().copyWith(
-                      color: Theme.of(context).colorScheme.secondary,
-                      fontSize: width * 0.095,
+                      fontSize: width > 760 ? width * 0.015 : 12,
                       fontWeight: FontWeight.normal),
                 ),
                 EntranceFader(
-                  offset: const Offset(-10, 0),
-                  delay: const Duration(seconds: 1),
+                  offset: const Offset(0, 0),
+                  delay: const Duration(seconds: 2),
                   duration: const Duration(milliseconds: 800),
-                  child: Row(
-                    children: [
-                      const Icon(
-                        Icons.play_arrow_rounded,
-                        color: Colors.red,
-                      ),
-                      AnimatedTextKit(
-                        animatedTexts: [
-                          TypewriterAnimatedText(
-                            'Flutter Developer',
-                            textStyle: GoogleFonts.montserrat().copyWith(
-                                color: Theme.of(context).colorScheme.secondary,
-                                fontSize: width * 0.012,
-                                fontWeight: FontWeight.normal),
-                            speed: const Duration(milliseconds: 60),
-                          ),
-                          TypewriterAnimatedText(
-                            'Python Developer',
-                            textStyle: GoogleFonts.montserrat().copyWith(
-                                color: Theme.of(context).colorScheme.secondary,
-                                fontSize: width * 0.012,
-                                fontWeight: FontWeight.normal),
-                            speed: const Duration(milliseconds: 60),
-                          ),
-                          TypewriterAnimatedText(
-                            'AWS Developer',
-                            textStyle: GoogleFonts.montserrat().copyWith(
-                                color: Theme.of(context).colorScheme.secondary,
-                                fontSize: width * 0.012,
-                                fontWeight: FontWeight.normal),
-                            speed: const Duration(milliseconds: 60),
-                          ),
-                        ],
-                        totalRepeatCount: 99999999999,
-                        pause: const Duration(milliseconds: 200),
-                        displayFullTextOnTap: true,
-                        stopPauseOnTap: true,
-                      ),
-                      SizedBox(
-                        height: height * 0.05,
-                      ),
-                    ],
-                  ),
-                ),
-                Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: List.generate(
-                    kSocialIcons.length,
-                    (index) => WidgetAnimator(
-                      child: SocialMediaIconBtn(
-                        icon: kSocialIcons[index],
-                        socialLink: kSocialLinks[index],
-                        height: height * 0.035,
-                        horizontalPadding: width * 0.005,
-                      ),
-                    ),
+                  child: Image.asset(
+                    "assets/images/4AIB.gif",
+                    height: height * 0.1,
                   ),
                 ),
               ],
             ),
-          ),
-        ],
+            SizedBox(
+              height: height * 0.04,
+            ),
+            AdaptiveText(
+              "Shubham",
+              style: GoogleFonts.montserrat().copyWith(
+                  color: Theme.of(context).colorScheme.secondary,
+                  fontSize: width * 0.085,
+                  fontWeight: FontWeight.normal),
+            ),
+            AdaptiveText(
+              "Joshi",
+              style: GoogleFonts.montserrat().copyWith(
+                  color: Theme.of(context).colorScheme.secondary,
+                  fontSize: width * 0.095,
+                  fontWeight: FontWeight.normal),
+            ),
+            EntranceFader(
+              offset: const Offset(-10, 0),
+              delay: const Duration(seconds: 1),
+              duration: const Duration(milliseconds: 800),
+              child: Row(
+                children: [
+                  const Icon(
+                    Icons.play_arrow_rounded,
+                    color: Colors.red,
+                  ),
+                  AnimatedTextKit(
+                    animatedTexts: [
+                      TypewriterAnimatedText(
+                        'Flutter Developer',
+                        textStyle: GoogleFonts.montserrat().copyWith(
+                            color: Theme.of(context).colorScheme.secondary,
+                            fontSize: width > 760 ? width * 0.012 : 12,
+                            fontWeight: FontWeight.normal),
+                        speed: const Duration(milliseconds: 60),
+                      ),
+                      TypewriterAnimatedText(
+                        'Python Developer',
+                        textStyle: GoogleFonts.montserrat().copyWith(
+                            color: Theme.of(context).colorScheme.secondary,
+                            fontSize: width > 760 ? width * 0.012 : 12,
+                            fontWeight: FontWeight.normal),
+                        speed: const Duration(milliseconds: 60),
+                      ),
+                      TypewriterAnimatedText(
+                        'AWS Developer',
+                        textStyle: GoogleFonts.montserrat().copyWith(
+                            color: Theme.of(context).colorScheme.secondary,
+                            fontSize: width > 760 ? width * 0.012 : 12,
+                            fontWeight: FontWeight.normal),
+                        speed: const Duration(milliseconds: 60),
+                      ),
+                    ],
+                    totalRepeatCount: 99999999999,
+                    pause: const Duration(milliseconds: 200),
+                    displayFullTextOnTap: true,
+                    stopPauseOnTap: true,
+                  ),
+                  SizedBox(
+                    height: height * 0.05,
+                  ),
+                ],
+              ),
+            ),
+            Row(
+              mainAxisSize: MainAxisSize.min,
+              children: List.generate(
+                kSocialIcons.length,
+                (index) => WidgetAnimator(
+                  child: SocialMediaIconBtn(
+                    icon: kSocialIcons[index],
+                    socialLink: kSocialLinks[index],
+                    height: height * 0.035,
+                    horizontalPadding: width * 0.005,
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

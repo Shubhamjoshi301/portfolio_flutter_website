@@ -12,6 +12,7 @@ class _DesktoppAppbarState extends State<DesktoppAppbar> {
   Widget build(BuildContext context) {
     return Container(
       color: Theme.of(context).colorScheme.primary,
+      // color: Colors.red,
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
       child: Row(
         children: [
