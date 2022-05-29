@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:portfolio/navigator/routes_names.dart';
 import 'package:portfolio/screens/home/home.dart';
+
 // main.dart
 
 void main() {
@@ -50,15 +52,23 @@ class _MyAppState extends State<MyApp> {
       title: 'Explore',
       debugShowCheckedModeBanner: false,
       theme: _light ? _lightTheme : _darkTheme,
-      home: HomePage(
-        callback: () {
+      // home: HomePage(
+      //   callback: () {
+      //     setState(
+      //       () {
+      //         _light = !_light;
+      //       },
+      //     );
+      //   },
+      // ),
+      home: PageController1(
+          callback: () {
           setState(
             () {
               _light = !_light;
             },
           );
-        },
-      ),
+        },),
     );
   }
 }
