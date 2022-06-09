@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/widgets/adaptive_text.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:portfolio/widgets/tech.dart';
 
 class AboutDesktop extends StatelessWidget {
   const AboutDesktop({Key? key}) : super(key: key);
@@ -76,19 +77,56 @@ class AboutDesktop extends StatelessWidget {
                         ),
                       ),
                     ),
-                    const Divider(
-                      // color: Colors.white,
-                      // height: 20,
+                    const SizedBox(
+                      height: 10,
+                    ),
+                    Container(
+                      margin: const EdgeInsets.symmetric(vertical: 10),
+                      width: width * 0.5,
+                      height: 0.5,
+                      color: Colors.grey,
                     ),
                     Text(
                       "Technologies I have worked with:",
                       style: GoogleFonts.montserrat()
                           .copyWith(color: Colors.red, fontSize: 14),
                     ),
-                    const Divider(
-                      // color: Colors.white,
-                      // height: 20,
-                      thickness: 2,
+                    const SizedBox(
+                      height: 8,
+                    ),
+                    Row(
+                      children: const [
+                        Tech(tech: "Flutter"),
+                        SizedBox(
+                          width: 8,
+                        ),
+                        Tech(tech: "Firebase"),
+                        SizedBox(
+                          width: 8,
+                        ),
+                        Tech(tech: "Python"),
+                        SizedBox(
+                          width: 8,
+                        ),
+                        Tech(tech: "Tensorflow"),
+                        SizedBox(
+                          width: 8,
+                        ),
+                        Tech(tech: "Keras"),
+                        SizedBox(
+                          width: 8,
+                        ),
+                        Tech(tech: "AWS"),
+                        SizedBox(
+                          width: 8,
+                        ),
+                      ],
+                    ),
+                    Container(
+                      margin: const EdgeInsets.symmetric(vertical: 15),
+                      width: width * 0.5,
+                      height: 0.5,
+                      color: Colors.grey,
                     ),
                   ],
                 ),
