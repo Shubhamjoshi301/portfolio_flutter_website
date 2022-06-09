@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:portfolio/navigator/routes_names.dart';
-import 'package:portfolio/screens/home/home.dart';
+import 'package:portfolio/navigator/page_controller.dart';
+
 
 // main.dart
 

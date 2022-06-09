@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
 
+
 class DesktoppAppbar extends StatefulWidget {
-  const DesktoppAppbar({Key? key, required this.callback}) : super(key: key);
+  final PageController pageController;
+  const DesktoppAppbar({
+    Key? key,
+    required this.callback,
+    required this.pageController,
+  }) : super(key: key);
   final VoidCallback callback;
+
   @override
   State<DesktoppAppbar> createState() => _DesktoppAppbarState();
 }
@@ -26,7 +33,11 @@ class _DesktoppAppbarState extends State<DesktoppAppbar> {
           ),
           const Expanded(child: SizedBox()),
           TextButton(
-            onPressed: null,
+            onPressed: () {
+              widget.pageController.animateToPage(0,
+                  curve: Curves.easeInOut,
+                  duration: const Duration(milliseconds: 400));
+            },
             child: Text(
               "Home",
               style: TextStyle(
@@ -37,7 +48,11 @@ class _DesktoppAppbarState extends State<DesktoppAppbar> {
             width: 25,
           ),
           TextButton(
-            onPressed: null,
+            onPressed: () {
+              widget.pageController.animateToPage(1,
+                  curve: Curves.easeInOut,
+                  duration: const Duration(milliseconds: 400));
+            },
             child: Text(
               "About",
               style: TextStyle(
@@ -48,7 +63,11 @@ class _DesktoppAppbarState extends State<DesktoppAppbar> {
             width: 25,
           ),
           TextButton(
-            onPressed: null,
+            onPressed: () {
+              widget.pageController.animateToPage(2,
+                  curve: Curves.easeInOut,
+                  duration: const Duration(milliseconds: 400));
+            },
             child: Text(
               "Projects",
               style: TextStyle(

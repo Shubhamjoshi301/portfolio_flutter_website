@@ -29,6 +29,7 @@ class _PageControllerState extends State<PageController1> {
           ? PreferredSize(
               preferredSize: Size(screenSize.width, 1000),
               child: DesktoppAppbar(
+                pageController: _pageController,
                 callback: widget.callback,
               ))
           : AppBar(
@@ -67,9 +68,16 @@ class _PageControllerState extends State<PageController1> {
               );
             },
           ),
-          About(callback: () {
-            setState(() {});
-          })
+          About(
+            callback: () {
+              setState(() {});
+            },
+          ),
+          About(
+            callback: () {
+              setState(() {});
+            },
+          ),
         ],
       ),
     );
