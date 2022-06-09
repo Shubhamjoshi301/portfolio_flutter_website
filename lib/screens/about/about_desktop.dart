@@ -52,7 +52,7 @@ class AboutDesktop extends StatelessWidget {
                       height: 15,
                     ),
                     SizedBox(
-                      width: width * 0.5,
+                      width: width * 0.45,
                       child: AdaptiveText(
                         "I am Shubham Joshi, Computer Science Engineer, Tech enthusiastic and Something.",
                         style: GoogleFonts.montserrat().copyWith(
@@ -66,7 +66,7 @@ class AboutDesktop extends StatelessWidget {
                       height: 15,
                     ),
                     SizedBox(
-                      width: width * 0.5,
+                      width: width * 0.45,
                       child: AdaptiveText(
                         "I am Shubham Joshi, Computer Science Engineer, Tech enthusiastic and Something. sdnfjkwwifn fndjfsdjf skfnsjof srguhsbfs f shf sjnf shfsjf sjnf shf sujf sjf shd fsujf sdjf shidf sudf sdjnf sdif sudfsd fsh fsdhfdhf sdhi fsihf sdh fsjid fsdhnf sh fsdji fshf sdh fsdj fsif sf sdijf sijdf sdf sdjf sjid fsiudf sdjf sdijf sidf sdihf sidf sdijf sdif sdif sdijf sdjf sdijf sdij nkf wuof snf wuf snk fwsf sfbseof rhfbsejf sfnsjnf wseuf rjhfbwekof werifnejn fweuf webhfbwejfwikfnwenf weiuf wejbhfweijf ",
                         style: GoogleFonts.montserrat().copyWith(
@@ -82,7 +82,7 @@ class AboutDesktop extends StatelessWidget {
                     ),
                     Container(
                       margin: const EdgeInsets.symmetric(vertical: 10),
-                      width: width * 0.5,
+                      width: width * 0.45,
                       height: 0.5,
                       color: Colors.grey,
                     ),
@@ -124,9 +124,62 @@ class AboutDesktop extends StatelessWidget {
                     ),
                     Container(
                       margin: const EdgeInsets.symmetric(vertical: 15),
-                      width: width * 0.5,
+                      width: width * 0.45,
                       height: 0.5,
                       color: Colors.grey,
+                    ),
+                    SizedBox(
+                      width: width * 0.45,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Name:  Shubham Joshi",
+                                style: GoogleFonts.montserrat().copyWith(
+                                    color:
+                                        Theme.of(context).colorScheme.secondary,
+                                    fontSize: 14),
+                              ),
+                              const SizedBox(
+                                height: 80,
+                              ),
+                              Text(
+                                "Age:  21",
+                                style: GoogleFonts.montserrat().copyWith(
+                                    color:
+                                        Theme.of(context).colorScheme.secondary,
+                                    fontSize: 14),
+                              ),
+                            ],
+                          ),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Email:  joshishubham0301@gmail.com",
+                                style: GoogleFonts.montserrat().copyWith(
+                                    color:
+                                        Theme.of(context).colorScheme.secondary,
+                                    fontSize: 14),
+                              ),
+                              const SizedBox(
+                                height: 80,
+                              ),
+                              Text(
+                                "From:  Nagpur, Maharashtra, India.",
+                                style: GoogleFonts.montserrat().copyWith(
+                                    color:
+                                        Theme.of(context).colorScheme.secondary,
+                                    fontSize: 14),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
                     ),
                   ],
                 ),
