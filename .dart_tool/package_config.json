@@ -218,6 +218,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "scrollable_positioned_list",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/scrollable_positioned_list-0.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///C:/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -338,7 +344,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-06-11T08:31:06.433596Z",
+  "generated": "2022-06-11T11:02:35.805510Z",
   "generator": "pub",
   "generatorVersion": "2.17.1"
 }
