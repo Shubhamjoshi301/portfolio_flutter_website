@@ -48,6 +48,7 @@ dev_dependencies:
   animated_text_kit: ^4.2.1
   url_launcher: ^6.1.2
   google_fonts: ^3.0.1
+  responsive_builder: ^0.4.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
