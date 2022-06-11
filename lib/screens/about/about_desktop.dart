@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:portfolio/widgets/adaptive_text.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio/widgets/tech.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class AboutDesktop extends StatelessWidget {
   const AboutDesktop({Key? key}) : super(key: key);
@@ -13,6 +14,7 @@ class AboutDesktop extends StatelessWidget {
     return Container(
       constraints: BoxConstraints(minHeight: height),
       width: double.infinity,
+
       // color: Theme.of(context).backgroundColor,
       child: Column(
         children: [
@@ -33,9 +35,25 @@ class AboutDesktop extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
+                padding: const EdgeInsets.symmetric(vertical: 50),
                 // height: 600,
                 width: width * 0.42 - 15,
                 // color: Colors.amber,
+                child: Align(
+                  alignment: Alignment.topCenter,
+                  child: Theme.of(context).colorScheme.primary ==
+                          const Color.fromARGB(255, 0, 0, 0)
+                      ? SvgPicture.asset(
+                          "assets/images/coolManDark.svg",
+                          height: 600,
+                          // color: Colors.grey,
+                        )
+                      : SvgPicture.asset(
+                          "assets/images/coolMan.svg",
+                          height: 600,
+                          // color: Colors.grey,
+                        ),
+                ),
               ),
               const SizedBox(
                 width: 80,

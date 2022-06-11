@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2860" viewBox="0 0 45.752 67.296" version="1.1">
+  <g id="layer1" transform="translate(-346.42 -427.66)">
+    <path id="path3012" d="m346.44 451.57 3.737 15.607 3.444 1.979s-0.44 0.952 0 1.245c0.439 0.294 1.246 0.44 1.246 0.44s0 0.733 0.367 0.953c0.366 0.22 1.172 0.585 1.172 0.585s0.733 0.806 1.393 0.806c0.659 0 2.345 2.418 2.564 2.345 0.22-0.074 1.173-0.879 1.466-1.026 0.292-0.146 0.805-1.319 0.952-1.539s1.979-0.879 1.979-0.879-0.293 2.711-0.366 3.664c-0.074 0.953-0.367 4.617-0.513 5.496s-0.585 3.81-0.513 4.397c0.073 0.585 0.146 2.051 0.146 2.051s0.146 0.586 0.366 0.586 0.806 6.448 0.806 6.448l21.323 0.22v-5.936l0.806-0.439 2.418 0.073s0.146-7.254 0.292-8.426c0.147-1.172 0.44-2.858 0.513-3.297 0.074-0.44 0.807-8.866 0.953-9.16s1.173-0.586 1.173-2.784-0.073-7.474 0-7.914c0.073-0.439-0.146-8.208-0.879-8.721-0.733-0.512-3.225-3.443-3.664-3.589-0.439-0.148-4.91-2.858-5.715-2.858-0.806 0-2.198-2.272-2.198-2.272l-1.173 0.367s-1.392-1.54-1.465-4.983-1.099-8.353-7.474-7.18-4.763 2.418-4.323 6.888c0 0 0.292 1.612 0.732 2.711l0.146 1.173 0.513 0.439 0.074 0.366 0.513 0.513s0.293 1.171 0.66 1.465 0 1.393 0.806 1.686c0 0 0.165 0.622 0.66 0.732l0.165 0.549-4.946 3.353s-1.319 1.704-2.088 5.605c-0.769 3.902-1.264 7.914-1.264 7.914l-0.22 2.033-0.439 0.275-1.594-7.969-11.926-4.506c-0.002 0-0.753-0.182-0.625 0.51401z" fill="#69c"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>boy-laptop</dc:title>
+        <dc:date>2010-08-04T10:31:06</dc:date>
+        <dc:description>Separated entry of my collection-set of silhouettes. Check my other clip art.</dc:description>
+        <dc:source>http://openclipart.org/detail/77137/boy-laptop-by-shokunin</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>shokunin</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>book</rdf:li>
+            <rdf:li>books</rdf:li>
+            <rdf:li>boy</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>concert</rdf:li>
+            <rdf:li>cool laptop</rdf:li>
+            <rdf:li>dude</rdf:li>
+            <rdf:li>girl</rdf:li>
+            <rdf:li>hip hop</rdf:li>
+            <rdf:li>man</rdf:li>
+            <rdf:li>mic</rdf:li>
+            <rdf:li>mike</rdf:li>
+            <rdf:li>party girl</rdf:li>
+            <rdf:li>party goer</rdf:li>
+            <rdf:li>rap</rdf:li>
+            <rdf:li>rapper</rdf:li>
+            <rdf:li>rock crowd</rdf:li>
+            <rdf:li>rock star</rdf:li>
+            <rdf:li>shopper</rdf:li>
+            <rdf:li>shopping</rdf:li>
+            <rdf:li>silhouettes</rdf:li>
+            <rdf:li>stand</rdf:li>
+            <rdf:li>student</rdf:li>
+            <rdf:li>student girl</rdf:li>
+            <rdf:li>suit</rdf:li>
+            <rdf:li>yo</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
