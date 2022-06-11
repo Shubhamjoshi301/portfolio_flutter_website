@@ -212,6 +212,12 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "responsive_builder",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/responsive_builder-0.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///C:/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -332,7 +338,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-05-29T11:48:54.605071Z",
+  "generated": "2022-06-11T08:31:06.433596Z",
   "generator": "pub",
   "generatorVersion": "2.17.1"
 }
