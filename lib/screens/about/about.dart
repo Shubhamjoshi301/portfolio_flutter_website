@@ -17,18 +17,18 @@ class _AboutState extends State<About> {
       builder: (context, sizingInformation) {
         // Check the sizing information here and return your UI
         if (sizingInformation.deviceScreenType == DeviceScreenType.desktop) {
-          return AboutDesktop();
+          return const AboutDesktop();
         }
 
         if (sizingInformation.deviceScreenType == DeviceScreenType.tablet) {
-          return AboutDesktop();
+          return const AboutDesktop();
         }
 
         if (sizingInformation.deviceScreenType == DeviceScreenType.watch) {
-          return AboutDesktop();
+          return const AboutDesktop();
         }
 
-        return AboutDesktop();
+        return const AboutDesktop();
       },
     );
   }

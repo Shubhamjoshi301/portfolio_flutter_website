@@ -28,7 +28,7 @@ class HomeDesktop extends StatelessWidget {
     //  final themeProvider = Provider.of<ThemeProvider>(context);
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
-    return Container(
+    return SizedBox(
       // color: Theme.of(context).backgroundColor,
       height: height,
       width: width,

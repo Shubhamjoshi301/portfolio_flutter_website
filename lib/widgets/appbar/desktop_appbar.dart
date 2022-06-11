@@ -17,13 +17,11 @@ class DesktoppAppbar extends StatefulWidget {
 }
 
 class _DesktoppAppbarState extends State<DesktoppAppbar> {
-  double _scrollPosition = 0;
   // final ItemScrollController itemScrollController = ItemScrollController();
   // final ScrollController _scrollController = ScrollController();
 
   _scrollListener() {
     setState(() {
-      _scrollPosition = widget.scrollController.position.pixels;
     });
   }
 
