@@ -35,7 +35,7 @@ class HomeDesktop extends StatelessWidget {
       child: Container(
         margin: EdgeInsets.fromLTRB(width * 0.1, height * 0.1, width * 0.1, 0),
         child: Column(
-          // crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
               mainAxisSize: MainAxisSize.min,
