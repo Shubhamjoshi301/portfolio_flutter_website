@@ -49,6 +49,7 @@ dev_dependencies:
   url_launcher: ^6.1.2
   google_fonts: ^3.0.1
   responsive_builder: ^0.4.2
+  scrollable_positioned_list: ^0.3.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

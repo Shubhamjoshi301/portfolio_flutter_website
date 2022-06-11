@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio/navigator/page_controller.dart';
 
-
 // main.dart
 
 void main() {
@@ -51,7 +50,9 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Explore',
       debugShowCheckedModeBanner: false,
-      theme: _light ? _lightTheme : _darkTheme,
+      darkTheme: _darkTheme,
+      theme: _lightTheme,
+      themeMode: _light ? ThemeMode.light : ThemeMode.dark,
       // home: HomePage(
       //   callback: () {
       //     setState(
@@ -62,13 +63,14 @@ class _MyAppState extends State<MyApp> {
       //   },
       // ),
       home: PageController1(
-          callback: () {
+        callback: () {
           setState(
             () {
               _light = !_light;
             },
           );
-        },),
+        },
+      ),
     );
   }
 }

@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
-
+import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class DesktoppAppbar extends StatefulWidget {
-  final PageController pageController;
+  final ScrollController scrollController;
+  final ItemScrollController itemScrollController;
   const DesktoppAppbar({
     Key? key,
     required this.callback,
-    required this.pageController,
+    required this.scrollController,
+    required this.itemScrollController,
   }) : super(key: key);
   final VoidCallback callback;
 
@@ -15,6 +17,22 @@ class DesktoppAppbar extends StatefulWidget {
 }
 
 class _DesktoppAppbarState extends State<DesktoppAppbar> {
+  double _scrollPosition = 0;
+  // final ItemScrollController itemScrollController = ItemScrollController();
+  // final ScrollController _scrollController = ScrollController();
+
+  _scrollListener() {
+    setState(() {
+      _scrollPosition = widget.scrollController.position.pixels;
+    });
+  }
+
+  @override
+  void initState() {
+    widget.scrollController.addListener(_scrollListener);
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -34,9 +52,10 @@ class _DesktoppAppbarState extends State<DesktoppAppbar> {
           const Expanded(child: SizedBox()),
           TextButton(
             onPressed: () {
-              widget.pageController.animateToPage(0,
+              widget.itemScrollController.scrollTo(
+                  index: 0,
                   curve: Curves.easeInOut,
-                  duration: const Duration(milliseconds: 400));
+                  duration: const Duration(milliseconds: 800));
             },
             child: Text(
               "Home",
@@ -49,9 +68,10 @@ class _DesktoppAppbarState extends State<DesktoppAppbar> {
           ),
           TextButton(
             onPressed: () {
-              widget.pageController.animateToPage(1,
-                  curve: Curves.easeInOut,
-                  duration: const Duration(milliseconds: 400));
+              widget.itemScrollController.scrollTo(
+                  index: 1,
+                  duration: const Duration(milliseconds: 800),
+                  curve: Curves.easeInOutCubic);
             },
             child: Text(
               "About",
@@ -64,9 +84,10 @@ class _DesktoppAppbarState extends State<DesktoppAppbar> {
           ),
           TextButton(
             onPressed: () {
-              widget.pageController.animateToPage(2,
-                  curve: Curves.easeInOut,
-                  duration: const Duration(milliseconds: 400));
+              widget.itemScrollController.scrollTo(
+                  index: 2,
+                  duration: const Duration(seconds: 1),
+                  curve: Curves.easeInOutCubic);
             },
             child: Text(
               "Projects",

@@ -13,8 +13,23 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: HomeDesktop(),
+    return  ResponsiveBuilder(
+      builder: (context, sizingInformation) {
+        // Check the sizing information here and return your UI
+        if (sizingInformation.deviceScreenType == DeviceScreenType.desktop) {
+          return const HomeDesktop();
+        }
+
+        if (sizingInformation.deviceScreenType == DeviceScreenType.tablet) {
+          return  const HomeDesktop();
+        }
+
+        if (sizingInformation.deviceScreenType == DeviceScreenType.watch) {
+          return const HomeDesktop();
+        }
+
+        return  const HomeDesktop();
+      },
     );
   }
 }

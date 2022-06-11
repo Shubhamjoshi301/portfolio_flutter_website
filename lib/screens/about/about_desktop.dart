@@ -9,10 +9,11 @@ class AboutDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
-    // double height = MediaQuery.of(context).size.height;
+    double height = MediaQuery.of(context).size.height;
     return Container(
+      constraints: BoxConstraints(minHeight: height),
       width: double.infinity,
-      color: Theme.of(context).colorScheme.primary,
+      // color: Theme.of(context).backgroundColor,
       child: Column(
         children: [
           const SizedBox(
@@ -22,7 +23,7 @@ class AboutDesktop extends StatelessWidget {
             "About Me",
             style: GoogleFonts.montserrat().copyWith(
                 color: Theme.of(context).colorScheme.secondary,
-                fontSize: width > 760 ? width * 0.03 : 12,
+                fontSize: width > 900 ? width * 0.03 : 12,
                 fontWeight: FontWeight.normal),
           ),
           const SizedBox(
@@ -32,9 +33,9 @@ class AboutDesktop extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                height: 600,
+                // height: 600,
                 width: width * 0.42 - 15,
-                color: Colors.amber,
+                // color: Colors.amber,
               ),
               const SizedBox(
                 width: 80,
@@ -45,8 +46,10 @@ class AboutDesktop extends StatelessWidget {
                   children: [
                     Text(
                       "Who am I?",
-                      style: GoogleFonts.montserrat()
-                          .copyWith(color: Colors.red, fontSize: 18),
+                      style: GoogleFonts.montserrat().copyWith(
+                        color: Colors.red,
+                        fontSize: width > 760 ? width * 0.015 : 8,
+                      ),
                     ),
                     const SizedBox(
                       height: 15,
@@ -57,7 +60,7 @@ class AboutDesktop extends StatelessWidget {
                         "I am Shubham Joshi, Computer Science Engineer, Tech enthusiastic and Something.",
                         style: GoogleFonts.montserrat().copyWith(
                           color: Theme.of(context).colorScheme.secondary,
-                          fontSize: 22,
+                          fontSize: width > 760 ? width * 0.015 : 15,
                           // fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -73,7 +76,7 @@ class AboutDesktop extends StatelessWidget {
                           letterSpacing: 1.2,
                           height: 2,
                           color: Theme.of(context).colorScheme.secondary,
-                          fontSize: 14,
+                          fontSize: width > 760 ? width * 0.01 : 12,
                         ),
                       ),
                     ),
@@ -88,39 +91,33 @@ class AboutDesktop extends StatelessWidget {
                     ),
                     Text(
                       "Technologies I have worked with:",
-                      style: GoogleFonts.montserrat()
-                          .copyWith(color: Colors.red, fontSize: 14),
+                      style: GoogleFonts.montserrat().copyWith(
+                        color: Colors.red,
+                        fontSize: width > 660 ? width * 0.015 : 10,
+                      ),
                     ),
                     const SizedBox(
                       height: 8,
                     ),
-                    Row(
-                      children: const [
-                        Tech(tech: "Flutter"),
-                        SizedBox(
-                          width: 8,
-                        ),
-                        Tech(tech: "Firebase"),
-                        SizedBox(
-                          width: 8,
-                        ),
-                        Tech(tech: "Python"),
-                        SizedBox(
-                          width: 8,
-                        ),
-                        Tech(tech: "Tensorflow"),
-                        SizedBox(
-                          width: 8,
-                        ),
-                        Tech(tech: "Keras"),
-                        SizedBox(
-                          width: 8,
-                        ),
-                        Tech(tech: "AWS"),
-                        SizedBox(
-                          width: 8,
-                        ),
-                      ],
+                    SizedBox(
+                      // width: double.infinity,
+                      width: width * 0.42 - 15,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: const [
+                          Tech(tech: "Flutter"),
+                          Expanded(child: SizedBox()),
+                          Tech(tech: "Firebase"),
+                          Expanded(child: SizedBox()),
+                          Tech(tech: "Python"),
+                          Expanded(child: SizedBox()),
+                          Tech(tech: "Tensorflow"),
+                          Expanded(child: SizedBox()),
+                          Tech(tech: "Keras"),
+                          Expanded(child: SizedBox()),
+                          Tech(tech: "AWS"),
+                        ],
+                      ),
                     ),
                     Container(
                       margin: const EdgeInsets.symmetric(vertical: 15),
@@ -128,59 +125,122 @@ class AboutDesktop extends StatelessWidget {
                       height: 0.5,
                       color: Colors.grey,
                     ),
-                    SizedBox(
-                      width: width * 0.45,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                "Name:  Shubham Joshi",
-                                style: GoogleFonts.montserrat().copyWith(
+                    width < 700
+                        ? SizedBox(
+                            width: width * 0.45,
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Name:  Shubham Joshi",
+                                  style: GoogleFonts.montserrat().copyWith(
+                                      color: Theme.of(context)
+                                          .colorScheme
+                                          .secondary,
+                                      fontSize:
+                                          width > 760 ? width * 0.012 : 10),
+                                ),
+                                const SizedBox(
+                                  height: 5,
+                                ),
+                                Text(
+                                  "Age:  21",
+                                  style: GoogleFonts.montserrat().copyWith(
                                     color:
                                         Theme.of(context).colorScheme.secondary,
-                                    fontSize: 14),
-                              ),
-                              const SizedBox(
-                                height: 80,
-                              ),
-                              Text(
-                                "Age:  21",
-                                style: GoogleFonts.montserrat().copyWith(
-                                    color:
-                                        Theme.of(context).colorScheme.secondary,
-                                    fontSize: 14),
-                              ),
-                            ],
+                                    fontSize: width > 760 ? width * 0.012 : 10,
+                                  ),
+                                ),
+                                const SizedBox(
+                                  height: 5,
+                                ),
+                                Text(
+                                  "Email:  joshishubham0301@gmail.com",
+                                  style: GoogleFonts.montserrat().copyWith(
+                                      color: Theme.of(context)
+                                          .colorScheme
+                                          .secondary,
+                                      fontSize:
+                                          width > 760 ? width * 0.012 : 10),
+                                ),
+                                const SizedBox(
+                                  height: 5,
+                                ),
+                                Text(
+                                  "From:  Nagpur, Maharashtra, India.",
+                                  style: GoogleFonts.montserrat().copyWith(
+                                      color: Theme.of(context)
+                                          .colorScheme
+                                          .secondary,
+                                      fontSize:
+                                          width > 760 ? width * 0.012 : 10),
+                                ),
+                              ],
+                            ),
+                          )
+                        : SizedBox(
+                            width: width * 0.45,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      "Name:  Shubham Joshi",
+                                      style: GoogleFonts.montserrat().copyWith(
+                                          color: Theme.of(context)
+                                              .colorScheme
+                                              .secondary,
+                                          fontSize:
+                                              width > 760 ? width * 0.012 : 10),
+                                    ),
+                                    SizedBox(
+                                      height: width > 760 ? width * 0.06 : 30,
+                                    ),
+                                    Text(
+                                      "Age:  21",
+                                      style: GoogleFonts.montserrat().copyWith(
+                                        color: Theme.of(context)
+                                            .colorScheme
+                                            .secondary,
+                                        fontSize:
+                                            width > 760 ? width * 0.012 : 10,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      "Email:  joshishubham0301@gmail.com",
+                                      style: GoogleFonts.montserrat().copyWith(
+                                          color: Theme.of(context)
+                                              .colorScheme
+                                              .secondary,
+                                          fontSize:
+                                              width > 760 ? width * 0.012 : 10),
+                                    ),
+                                    SizedBox(
+                                      height: width > 760 ? width * 0.06 : 30,
+                                    ),
+                                    Text(
+                                      "From:  Nagpur, Maharashtra, India.",
+                                      style: GoogleFonts.montserrat().copyWith(
+                                          color: Theme.of(context)
+                                              .colorScheme
+                                              .secondary,
+                                          fontSize:
+                                              width > 760 ? width * 0.012 : 10),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
                           ),
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                "Email:  joshishubham0301@gmail.com",
-                                style: GoogleFonts.montserrat().copyWith(
-                                    color:
-                                        Theme.of(context).colorScheme.secondary,
-                                    fontSize: 14),
-                              ),
-                              const SizedBox(
-                                height: 80,
-                              ),
-                              Text(
-                                "From:  Nagpur, Maharashtra, India.",
-                                style: GoogleFonts.montserrat().copyWith(
-                                    color:
-                                        Theme.of(context).colorScheme.secondary,
-                                    fontSize: 14),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                    ),
                   ],
                 ),
               )

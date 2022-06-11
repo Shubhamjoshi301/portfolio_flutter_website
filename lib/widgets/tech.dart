@@ -10,14 +10,15 @@ class Tech extends StatelessWidget {
     double width = MediaQuery.of(context).size.width;
     return Row(
       children: [
-        const Icon(
+        Icon(
           Icons.arrow_right,
+          size: width > 760 ? width * 0.01 : 6,
           color: Colors.red,
         ),
         Text(
           tech,
           style: GoogleFonts.montserrat().copyWith(
-            fontSize: width > 760 ? width * 0.015 : 8,
+            fontSize: width > 660 ? width * 0.011 : 7,
             color: Theme.of(context).colorScheme.secondary,
           ),
         ),
