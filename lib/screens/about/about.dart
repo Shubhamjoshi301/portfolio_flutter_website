@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/screens/about/about_desktop.dart';
+import 'package:portfolio/screens/about/about_phone.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class About extends StatefulWidget {
@@ -28,7 +29,7 @@ class _AboutState extends State<About> {
           return const AboutDesktop();
         }
 
-        return const AboutDesktop();
+        return const AboutPhone();
       },
     );
   }

@@ -21,15 +21,31 @@ class AboutDesktop extends StatelessWidget {
           const SizedBox(
             height: 10,
           ),
-          AdaptiveText(
-            "About Me",
-            style: GoogleFonts.montserrat().copyWith(
-                color: Theme.of(context).colorScheme.secondary,
-                fontSize: width > 900 ? width * 0.03 : 12,
-                fontWeight: FontWeight.normal),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              AdaptiveText(
+                "About Me",
+                style: GoogleFonts.montserrat().copyWith(
+                    color: Theme.of(context).colorScheme.secondary,
+                    fontSize: width > 900 ? width * 0.03 : 12,
+                    fontWeight: FontWeight.normal),
+              ),
+              Theme.of(context).colorScheme.primary ==
+                      const Color.fromARGB(255, 0, 0, 0)
+                  ? SvgPicture.asset(
+                      "assets/images/eyeHair.svg",
+                      color: Colors.white,
+                      height: width > 900 ? width * 0.03 : 12,
+                    )
+                  : SvgPicture.asset(
+                      "assets/images/eyeHair.svg",
+                      height: width > 900 ? width * 0.03 : 12,
+                    )
+            ],
           ),
           const SizedBox(
-            height: 20,
+            height: 15,
           ),
           Row(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -40,18 +56,18 @@ class AboutDesktop extends StatelessWidget {
                 width: width * 0.42 - 15,
                 // color: Colors.amber,
                 child: Align(
-                  alignment: Alignment.topCenter,
+                  alignment: Alignment.topRight,
                   child: Theme.of(context).colorScheme.primary ==
                           const Color.fromARGB(255, 0, 0, 0)
                       ? SvgPicture.asset(
-                          "assets/images/coolManDark.svg",
-                          height: 600,
-                          // color: Colors.grey,
+                          "assets/images/laptopGuy.svg",
+                          height: width * 0.31,
+                          color: Colors.grey,
                         )
                       : SvgPicture.asset(
-                          "assets/images/coolMan.svg",
-                          height: 600,
-                          // color: Colors.grey,
+                          "assets/images/laptopGuy.svg",
+                          height: width * 0.31,
+                          color: Colors.blueGrey[600],
                         ),
                 ),
               ),
@@ -123,17 +139,37 @@ class AboutDesktop extends StatelessWidget {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: const [
-                          Tech(tech: "Flutter"),
+                          Tech(
+                            tech: "Flutter",
+                            phoneView: false,
+                          ),
                           Expanded(child: SizedBox()),
-                          Tech(tech: "Firebase"),
+                          Tech(
+                            tech: "Firebase",
+                            phoneView: false,
+                          ),
                           Expanded(child: SizedBox()),
-                          Tech(tech: "Python"),
+                          Tech(
+                            tech: "Python",
+                            phoneView: false,
+                          ),
                           Expanded(child: SizedBox()),
-                          Tech(tech: "Tensorflow"),
+                          Tech(
+                            tech: "Tensorflow",
+                            phoneView: false,
+                          ),
                           Expanded(child: SizedBox()),
-                          Tech(tech: "Keras"),
-                          Expanded(child: SizedBox()),
-                          Tech(tech: "AWS"),
+                          Tech(
+                            tech: "Keras",
+                            phoneView: false,
+                          ),
+                          Expanded(
+                            child: SizedBox(),
+                          ),
+                          Tech(
+                            tech: "AWS",
+                            phoneView: false,
+                          ),
                         ],
                       ),
                     ),

@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class MobileAppbar extends StatefulWidget {
-  const MobileAppbar({Key? key}) : super(key: key);
+  final ScrollController scrollController;
+  final ItemScrollController itemScrollController;
+  const MobileAppbar(
+      {Key? key,
+      required this.scrollController,
+      required this.itemScrollController})
+      : super(key: key);
 
   @override
   State<MobileAppbar> createState() => _MobileAppbarState();
@@ -13,6 +20,16 @@ class _MobileAppbarState extends State<MobileAppbar> {
   late bool hoveredProjects = false;
   late bool hoveredContact = false;
   late bool hoveredResume = false;
+
+  // _scrollListener() {
+  //   setState(() {});
+  // }
+
+  // @override
+  // void initState() {
+  //   widget.scrollController.addListener(_scrollListener);
+  //   super.initState();
+  // }
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -58,7 +75,13 @@ class _MobileAppbarState extends State<MobileAppbar> {
                     hoveredHome = value;
                   });
                 },
-                onTap: () {},
+                onTap: () {
+                  widget.itemScrollController.scrollTo(
+                      index: 0,
+                      duration: const Duration(seconds: 1),
+                      curve: Curves.easeInOutCubic);
+                  Navigator.pop(context);
+                },
                 child: Text(
                   "Home",
                   style: TextStyle(
@@ -91,7 +114,13 @@ class _MobileAppbarState extends State<MobileAppbar> {
                     hoveredAbout = value;
                   });
                 },
-                onTap: () {},
+                onTap: () {
+                  widget.itemScrollController.scrollTo(
+                      index: 1,
+                      duration: const Duration(seconds: 1),
+                      curve: Curves.easeInOutCubic);
+                  Navigator.pop(context);
+                },
                 child: Text(
                   "About",
                   style: TextStyle(
@@ -124,7 +153,13 @@ class _MobileAppbarState extends State<MobileAppbar> {
                     hoveredProjects = value;
                   });
                 },
-                onTap: () {},
+                onTap: () {
+                  widget.itemScrollController.scrollTo(
+                      index: 2,
+                      duration: const Duration(seconds: 1),
+                      curve: Curves.easeInOutCubic);
+                  Navigator.pop(context);
+                },
                 child: Text(
                   "Projects",
                   style: TextStyle(
@@ -157,7 +192,12 @@ class _MobileAppbarState extends State<MobileAppbar> {
                     hoveredContact = value;
                   });
                 },
-                onTap: () {},
+                onTap: () {
+                  widget.itemScrollController.scrollTo(
+                      index: 1,
+                      duration: const Duration(seconds: 1),
+                      curve: Curves.easeInOutCubic);
+                },
                 child: Text(
                   "Contact",
                   style: TextStyle(

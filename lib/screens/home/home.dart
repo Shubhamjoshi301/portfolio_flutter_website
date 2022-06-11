@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/screens/home/home_phone.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:portfolio/screens/home/home_desktop.dart';
 
@@ -13,7 +14,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return  ResponsiveBuilder(
+    return ResponsiveBuilder(
       builder: (context, sizingInformation) {
         // Check the sizing information here and return your UI
         if (sizingInformation.deviceScreenType == DeviceScreenType.desktop) {
@@ -21,14 +22,14 @@ class _HomePageState extends State<HomePage> {
         }
 
         if (sizingInformation.deviceScreenType == DeviceScreenType.tablet) {
-          return  const HomeDesktop();
+          return const HomeDesktop();
         }
 
         if (sizingInformation.deviceScreenType == DeviceScreenType.watch) {
           return const HomeDesktop();
         }
 
-        return  const HomeDesktop();
+        return const HomePhone();
       },
     );
   }

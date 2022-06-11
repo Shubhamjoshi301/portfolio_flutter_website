@@ -96,7 +96,7 @@ class _PageControllerState extends State<PageController1> {
             ),
       drawer: screenSize.width < 760
           ? PreferredSize(
-              child: const MobileAppbar(),
+              child: MobileAppbar(itemScrollController: itemScrollController,scrollController: _scrollController),
               preferredSize: Size(screenSize.width, 2000),
             )
           : null,
