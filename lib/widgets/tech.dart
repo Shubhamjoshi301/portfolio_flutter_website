@@ -7,6 +7,7 @@ class Tech extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
     return Row(
       children: [
         const Icon(
@@ -16,6 +17,7 @@ class Tech extends StatelessWidget {
         Text(
           tech,
           style: GoogleFonts.montserrat().copyWith(
+            fontSize: width > 760 ? width * 0.015 : 8,
             color: Theme.of(context).colorScheme.secondary,
           ),
         ),
