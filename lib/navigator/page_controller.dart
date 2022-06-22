@@ -1,13 +1,13 @@
 // ignore_for_file: unused_field
 
 import 'package:flutter/material.dart';
+import 'package:portfolio/screens/Projects/projects.dart';
 import 'package:portfolio/screens/about/about.dart';
 import 'package:portfolio/screens/home/home.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import 'package:portfolio/widgets/appbar/desktop_appbar.dart';
 
 import 'package:portfolio/widgets/appbar/mobile_appbar.dart';
-
 
 class PageController1 extends StatefulWidget {
   // final bool light;
@@ -47,8 +47,6 @@ class _PageControllerState extends State<PageController1> {
   @override
   Widget build(BuildContext context) {
     var screenSize = MediaQuery.of(context).size;
-    
-  
 
     final items = [
       HomePage(
@@ -63,11 +61,9 @@ class _PageControllerState extends State<PageController1> {
           setState(() {});
         },
       ),
-      About(
-        callback: () {
-          setState(() {});
-        },
-      ),
+      Projects(callback: () {
+        setState(() {});
+      })
     ];
     return Scaffold(
       appBar: screenSize.width > 760
@@ -96,7 +92,9 @@ class _PageControllerState extends State<PageController1> {
             ),
       drawer: screenSize.width < 760
           ? PreferredSize(
-              child: MobileAppbar(itemScrollController: itemScrollController,scrollController: _scrollController),
+              child: MobileAppbar(
+                  itemScrollController: itemScrollController,
+                  scrollController: _scrollController),
               preferredSize: Size(screenSize.width, 2000),
             )
           : null,

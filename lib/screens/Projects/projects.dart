@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/screens/Projects/projects_desktop.dart';
 import 'package:portfolio/screens/about/about_desktop.dart';
 
 class Projects extends StatefulWidget {
@@ -13,7 +14,7 @@ class _ProjectsState extends State<Projects> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: AboutDesktop(),
+      body: ProjectsDesktop(),
     );
   }
 }
