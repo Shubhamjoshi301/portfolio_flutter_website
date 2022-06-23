@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:portfolio/widgets/adaptive_text.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:hovering/hovering.dart';
+
 
 class ProjectsDesktop extends StatefulWidget {
   const ProjectsDesktop({Key? key}) : super(key: key);

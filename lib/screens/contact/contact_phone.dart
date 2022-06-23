@@ -20,7 +20,7 @@ class ContactPhone extends StatelessWidget {
               fontSize: width * 0.065,
               fontWeight: FontWeight.normal),
         ),
-        SizedBox(
+        const SizedBox(
           height: 30,
         ),
         const ContactCard(

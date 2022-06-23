@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/screens/Projects/projects_desktop.dart';
-import 'package:portfolio/screens/Projects/projects_mobile.dart';
+
 import 'package:portfolio/screens/contact/contact_desktop.dart';
 import 'package:portfolio/screens/contact/contact_phone.dart';
 

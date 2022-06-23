@@ -74,9 +74,9 @@ class _ProjectsMobileState extends State<ProjectsMobile> {
         ),
       ),
     ];
-    double height = MediaQuery.of(context).size.height;
+    // double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
-    return Container(
+    return SizedBox(
       // padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,

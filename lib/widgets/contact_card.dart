@@ -14,7 +14,7 @@ class _ContactCardState extends State<ContactCard> {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
-    double height = MediaQuery.of(context).size.height;
+    // double height = MediaQuery.of(context).size.height;
     return MouseRegion(
       onExit: (details) {
         setState(() {
@@ -30,7 +30,7 @@ class _ContactCardState extends State<ContactCard> {
         });
       },
       child: Container(
-        margin: EdgeInsets.symmetric(horizontal: 20),
+        margin: const EdgeInsets.symmetric(horizontal: 20),
         width: widget.isPhone ? width * 0.65 : width / 4.4,
         height: widget.isPhone ? 150 : width / 7,
         padding: EdgeInsets.all(width * 0.02),

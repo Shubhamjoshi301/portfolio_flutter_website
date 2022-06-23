@@ -15,7 +15,7 @@ class _ContactDesktopState extends State<ContactDesktop> {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
-    double height = MediaQuery.of(context).size.height;
+    // double height = MediaQuery.of(context).size.height;
     return Column(
       children: [
         AdaptiveText(

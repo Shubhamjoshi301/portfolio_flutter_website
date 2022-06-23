@@ -10,7 +10,7 @@ class AboutPhone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
-    double height = MediaQuery.of(context).size.height;
+    // double height = MediaQuery.of(context).size.height;
     return Container(
       // constraints: BoxConstraints(minHeight: height),
       width: double.infinity,
@@ -210,7 +210,7 @@ class AboutPhone extends StatelessWidget {
               ],
             ),
           ),
-          SizedBox(
+         const SizedBox(
             height: 50,
           )
         ],
