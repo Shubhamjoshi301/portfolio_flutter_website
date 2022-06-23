@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/screens/Projects/projects.dart';
 import 'package:portfolio/screens/about/about.dart';
+import 'package:portfolio/screens/contact/contact.dart';
 import 'package:portfolio/screens/home/home.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import 'package:portfolio/widgets/appbar/desktop_appbar.dart';
@@ -63,7 +64,10 @@ class _PageControllerState extends State<PageController1> {
       ),
       Projects(callback: () {
         setState(() {});
-      })
+      }),
+      Contacts(callback: () {
+        setState(() {});
+      }),
     ];
     return Scaffold(
       appBar: screenSize.width > 760
@@ -133,7 +137,7 @@ class _PageControllerState extends State<PageController1> {
         color: Theme.of(context).colorScheme.primary,
         height: MediaQuery.of(context).size.height,
         child: ScrollablePositionedList.builder(
-          itemCount: 3,
+          itemCount: 4,
           itemBuilder: (context, index) => items[index],
           itemScrollController: itemScrollController,
           itemPositionsListener: itemPositionsListener,

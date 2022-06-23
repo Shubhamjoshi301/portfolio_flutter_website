@@ -51,6 +51,8 @@ dev_dependencies:
   responsive_builder: ^0.4.2
   scrollable_positioned_list: ^0.3.2
   flutter_svg: ^1.1.0
+  carousel_slider: ^4.1.1
+  hovering: ^1.0.4
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -66,7 +68,10 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/4AIB.gif
+    - assets/images/cover.gif
     - assets/images/shubhamp.png
+    - assets/images/erx.png
+    - assets/images/mymc.jpg
     - assets/images/coolMan.svg
     - assets/images/coolManDark.svg
     - assets/images/eyeHairBlack.svg

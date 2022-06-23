@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class MobileAppbar extends StatefulWidget {
   final ScrollController scrollController;
@@ -194,12 +195,49 @@ class _MobileAppbarState extends State<MobileAppbar> {
                 },
                 onTap: () {
                   widget.itemScrollController.scrollTo(
-                      index: 1,
+                      index: 3,
                       duration: const Duration(seconds: 1),
                       curve: Curves.easeInOutCubic);
+                  Navigator.pop(context);
                 },
                 child: Text(
                   "Contact",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Theme.of(context).colorScheme.secondary,
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(
+              height: 10,
+            ),
+            Container(
+              alignment: Alignment.center,
+              width: double.infinity,
+              height: 40,
+              decoration: BoxDecoration(
+                  boxShadow: hoveredResume
+                      ? [
+                          const BoxShadow(
+                            color: Colors.blueGrey,
+                            blurStyle: BlurStyle.inner,
+                            blurRadius: 5,
+                          )
+                        ]
+                      : null),
+              child: InkWell(
+                onHover: (value) {
+                  setState(() {
+                    hoveredResume = value;
+                  });
+                },
+                onTap: () {
+                  _launchUrl();
+                  Navigator.of(context).pop();
+                },
+                child: Text(
+                  "Resume",
                   style: TextStyle(
                     fontSize: 20,
                     color: Theme.of(context).colorScheme.secondary,
@@ -212,4 +250,10 @@ class _MobileAppbarState extends State<MobileAppbar> {
       ),
     );
   }
+}
+
+void _launchUrl() async {
+  final Uri _url = Uri.parse(
+      'https://drive.google.com/file/d/1bQoQikgH8e4dPG-XxPzRnAPS7P80u9Ai/view?usp=sharing');
+  if (!await launchUrl(_url)) throw 'Could not launch $_url';
 }

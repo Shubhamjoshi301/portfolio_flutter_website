@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class DesktoppAppbar extends StatefulWidget {
   final ScrollController scrollController;
@@ -21,8 +22,7 @@ class _DesktoppAppbarState extends State<DesktoppAppbar> {
   // final ScrollController _scrollController = ScrollController();
 
   _scrollListener() {
-    setState(() {
-    });
+    setState(() {});
   }
 
   @override
@@ -97,7 +97,12 @@ class _DesktoppAppbarState extends State<DesktoppAppbar> {
             width: 25,
           ),
           TextButton(
-            onPressed: null,
+            onPressed: () {
+              widget.itemScrollController.scrollTo(
+                  index: 3,
+                  duration: const Duration(seconds: 1),
+                  curve: Curves.easeInOutCubic);
+            },
             child: Text(
               "Contact",
               style: TextStyle(
@@ -108,7 +113,7 @@ class _DesktoppAppbarState extends State<DesktoppAppbar> {
             width: 25,
           ),
           TextButton(
-            onPressed: null,
+            onPressed: _launchUrl,
             child: Text(
               "Resume",
               style: TextStyle(
@@ -126,4 +131,10 @@ class _DesktoppAppbarState extends State<DesktoppAppbar> {
       ),
     );
   }
+}
+
+void _launchUrl() async {
+  final Uri _url = Uri.parse(
+      'https://drive.google.com/file/d/1bQoQikgH8e4dPG-XxPzRnAPS7P80u9Ai/view?usp=sharing');
+  if (!await launchUrl(_url)) throw 'Could not launch $_url';
 }

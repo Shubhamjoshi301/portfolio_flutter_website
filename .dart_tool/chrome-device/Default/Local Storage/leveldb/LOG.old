@@ -1,3 +1,6 @@
-2022/06/11-23:12:12.096 4618 Reusing MANIFEST C:\Users\lenovo\AppData\Local\Temp\flutter_tools.d7309b73\flutter_tools_chrome_device.3fe63208\Default\Local Storage\leveldb/MANIFEST-000001
-2022/06/11-23:12:12.097 4618 Recovering log #3
-2022/06/11-23:12:12.098 4618 Reusing old log C:\Users\lenovo\AppData\Local\Temp\flutter_tools.d7309b73\flutter_tools_chrome_device.3fe63208\Default\Local Storage\leveldb/000003.log 
+2022/06/22-17:32:16.876 4e38 Reusing MANIFEST C:\Users\lenovo\AppData\Local\Temp\flutter_tools.a4b743f6\flutter_tools_chrome_device.cc2194aa\Default\Local Storage\leveldb/MANIFEST-000001
+2022/06/22-17:32:16.877 4e38 Recovering log #3
+2022/06/22-17:32:16.878 4e38 Reusing old log C:\Users\lenovo\AppData\Local\Temp\flutter_tools.a4b743f6\flutter_tools_chrome_device.cc2194aa\Default\Local Storage\leveldb/000003.log 
+2022/06/22-17:49:55.818 f78 Level-0 table #5: started
+2022/06/22-17:49:55.821 f78 Level-0 table #5: 37309 bytes OK
+2022/06/22-17:49:55.823 f78 Delete type=0 #3
