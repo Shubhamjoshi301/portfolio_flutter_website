@@ -85,7 +85,7 @@ class AboutPhone extends StatelessWidget {
                   height: 15,
                 ),
                 AdaptiveText(
-                  "I am Shubham Joshi, Computer Science Engineer, Tech enthusiastic and Something.",
+                  "I am Shubham Joshi, a Computer Science Engineer and tech enthusiast .",
                   style: GoogleFonts.montserrat().copyWith(
                     color: Theme.of(context).colorScheme.secondary,
                     fontSize: width > 760 ? width * 0.015 : 15,
@@ -96,7 +96,7 @@ class AboutPhone extends StatelessWidget {
                   height: 15,
                 ),
                 AdaptiveText(
-                  "I am Shubham Joshi, Computer Science Engineer, Tech enthusiastic and Something. sdnfjkwwifn fndjfsdjf skfnsjof srguhsbfs f shf sjnf shfsjf sjnf shf sujf sjf shd fsujf sdjf shidf sudf sdjnf sdif sudfsd fsh fsdhfdhf sdhi fsihf sdh fsjid fsdhnf sh fsdji fshf sdh fsdj fsif sf sdijf sijdf sdf sdjf sjid fsiudf sdjf sdijf sidf sdihf sidf sdijf sdif sdif sdijf sdjf sdijf sdij nkf wuof snf wuf snk fwsf sfbseof rhfbsejf sfnsjnf wseuf rjhfbwekof werifnejn fweuf webhfbwejfwikfnwenf weiuf wejbhfweijf ",
+                  "I am a software developer and a Final year Computer Science Major from India. I love to build things that can have a positive impact on people's lives. I love to explore different technologies, work on different projects and am always ready to collaborate with others. I have been practicing coding and development for few years now, and have acquired enough problem solving and development skills. Outside of the professional space, In my free time I love watching anime and spend time with family and friends. Sports being an unseparable things along with some good music is what keeps me sane and active after hours of screen time. I enjoy solving real life problems and building cross-platform applications. So feel free to connect with me, and make earth a better place to live by collaborating on some really cool and helpfull projects.",
                   style: GoogleFonts.montserrat().copyWith(
                     letterSpacing: 1.2,
                     height: 2,
@@ -210,7 +210,7 @@ class AboutPhone extends StatelessWidget {
               ],
             ),
           ),
-         const SizedBox(
+          const SizedBox(
             height: 50,
           )
         ],

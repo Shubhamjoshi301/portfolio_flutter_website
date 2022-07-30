@@ -170,13 +170,13 @@ class HomeDesktop extends StatelessWidget {
             child: Theme.of(context).colorScheme.primary ==
                     const Color.fromARGB(255, 0, 0, 0)
                 ? SvgPicture.asset(
-                    "assets/images/coolManDark.svg",
-                    height: width > 760 ? width * 0.3 : 210,
+                    "assets/images/darkman.svg",
+                    height: width > 760 ? width * 0.4 : 210,
                     // color: Colors.grey,
                   )
                 : SvgPicture.asset(
-                    "assets/images/coolMan.svg",
-                    height: width > 760 ? width * 0.3 : 210,
+                    "assets/images/lightman.svg",
+                    height: width > 760 ? width * 0.4 : 210,
                     // color: Colors.grey,
                   ),
           ),

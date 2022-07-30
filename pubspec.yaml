@@ -77,6 +77,8 @@ flutter:
     - assets/images/eyeHairBlack.svg
     - assets/images/eyeHair.svg
     - assets/images/laptopGuy.svg
+    - assets/images/darkman.svg
+    - assets/images/lightman.svg
     # - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
