@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/constants/content.dart';
 import 'package:portfolio/widgets/adaptive_text.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio/widgets/tech.dart';
@@ -36,7 +37,7 @@ class AboutPhone extends StatelessWidget {
                       const Color.fromARGB(255, 0, 0, 0)
                   ? SvgPicture.asset(
                       "assets/images/eyeHair.svg",
-                      color: Colors.white,
+                      colorFilter: const ColorFilter.mode(Colors.white, BlendMode.srcIn),
                       height: width * 0.1,
                     )
                   : SvgPicture.asset(
@@ -96,7 +97,7 @@ class AboutPhone extends StatelessWidget {
                   height: 15,
                 ),
                 AdaptiveText(
-                  "I am an AI/ML backend developer with a major in Computer Science from India. I love to build things that can have a positive impact on people's lives. I love to explore different technologies, work on different projects and am always ready to collaborate with others. I have been practicing coding and development for few years now, and have acquired enough problem solving and development skills. Outside of the professional space, In my free time I love watching anime and spend time with family and friends. Sports being an unseparable things along with some good music is what keeps me sane and active after hours of screen time. I enjoy solving real life problems and building cross-platform applications. So feel free to connect with me, and make earth a better place to live by collaborating on some really cool and helpfull projects.",
+                  ConstantContent.about_string,
                   style: GoogleFonts.montserrat().copyWith(
                     letterSpacing: 1.2,
                     height: 2,
@@ -123,10 +124,10 @@ class AboutPhone extends StatelessWidget {
                 const SizedBox(
                   height: 8,
                 ),
-                Column(
+                const Column(
                   children: [
                     Row(
-                      children: const [
+                      children:  [
                         Tech(
                           tech: "Flutter",
                           phoneView: true,
@@ -151,7 +152,7 @@ class AboutPhone extends StatelessWidget {
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.start,
-                      children: const [
+                      children: [
                         Tech(
                           tech: "Keras",
                           phoneView: true,
