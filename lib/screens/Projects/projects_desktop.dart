@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/widgets/adaptive_text.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:carousel_slider/carousel_slider.dart';
+import 'package:carousel_slider/carousel_slider.dart' as CarouselSlider;
 
 
 class ProjectsDesktop extends StatefulWidget {
@@ -93,8 +93,8 @@ class _ProjectsDesktopState extends State<ProjectsDesktop> {
           SizedBox(height: width > 760 ? 70 : 30),
           SizedBox(
             width: width * 0.8,
-            child: CarouselSlider(
-              options: CarouselOptions(
+            child: CarouselSlider.CarouselSlider(
+              options: CarouselSlider.CarouselOptions(
                 height: width > 760 ? width * 0.3 : 200,
                 autoPlay: !isHover,
                 aspectRatio: 2,
@@ -103,7 +103,7 @@ class _ProjectsDesktopState extends State<ProjectsDesktop> {
                 autoPlayInterval: const Duration(seconds: 3),
                 autoPlayCurve: Curves.fastOutSlowIn,
                 enlargeCenterPage: true,
-                enlargeStrategy: CenterPageEnlargeStrategy.scale,
+                enlargeStrategy: CarouselSlider.CenterPageEnlargeStrategy.scale,
               ),
               items: items,
             ),

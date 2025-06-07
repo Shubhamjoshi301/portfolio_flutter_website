@@ -136,9 +136,9 @@ class AboutDesktop extends StatelessWidget {
                     SizedBox(
                       // width: double.infinity,
                       width: width * 0.42 - 15,
-                      child: Row(
+                      child: const Row(
                         mainAxisAlignment: MainAxisAlignment.start,
-                        children: const [
+                        children: [
                           Tech(
                             tech: "Flutter",
                             phoneView: false,

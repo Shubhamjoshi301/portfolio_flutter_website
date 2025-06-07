@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/widgets/adaptive_text.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:carousel_slider/carousel_slider.dart';
+import 'package:carousel_slider/carousel_slider.dart' as CarouselSlider;
 import 'package:flutter_svg/flutter_svg.dart';
 
 class ProjectsMobile extends StatefulWidget {
@@ -110,8 +110,8 @@ class _ProjectsMobileState extends State<ProjectsMobile> {
           ),
           SizedBox(
             // width: width * 0.8,
-            child: CarouselSlider(
-              options: CarouselOptions(
+            child: CarouselSlider.CarouselSlider(
+              options: CarouselSlider.CarouselOptions(
                 height: 160,
                 autoPlay: !isHover,
                 aspectRatio: 2,
@@ -120,7 +120,7 @@ class _ProjectsMobileState extends State<ProjectsMobile> {
                 autoPlayInterval: const Duration(seconds: 5),
                 autoPlayCurve: Curves.fastOutSlowIn,
                 enlargeCenterPage: true,
-                enlargeStrategy: CenterPageEnlargeStrategy.scale,
+                enlargeStrategy: CarouselSlider.CenterPageEnlargeStrategy.scale,
               ),
               items: items,
             ),

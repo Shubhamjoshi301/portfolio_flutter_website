@@ -26,9 +26,14 @@ class SocialMediaIconBtn extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: horizontalPadding!),
       child: IconButton(
         color: Theme.of(context).colorScheme.primary,
-        icon: Image.network(icon!,
-            color: Theme.of(context).colorScheme.secondary),
-        iconSize: height,
+        icon: Image.network(
+      icon!,
+      // Apply the size directly to the Image widget
+      width: height,
+      height: height,
+      color: Theme.of(context).colorScheme.secondary,
+    ),
+      
         onPressed: () async {
           if (!await launchUrl(_url)) throw "helo";
         },

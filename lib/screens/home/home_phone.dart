@@ -38,11 +38,11 @@ class HomePhone extends StatelessWidget {
         children: [
           Theme.of(context).colorScheme.primary ==
                   const Color.fromARGB(255, 0, 0, 0)
-              ? SvgPicture.asset("assets/images/coolManDark.svg",
+              ? SvgPicture.asset("assets/images/darkman.svg",
                   height: width * 0.6
                   // color: Colors.grey,
                   )
-              : SvgPicture.asset("assets/images/coolMan.svg",
+              : SvgPicture.asset("assets/images/lightman.svg",
                   height: width * 0.6
                   // color: Colors.grey,
                   ),

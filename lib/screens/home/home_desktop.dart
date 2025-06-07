@@ -21,8 +21,8 @@ class HomeDesktop extends StatelessWidget {
     ];
     const kSocialLinks = [
       "https://www.facebook.com/profile.php?id=100005460554654",
-      "https://www.instagram.com/__shubhamj.35__/?hl=en",
-      "https://twitter.com/Shubham5_3",
+      "https://www.instagram.com/_shubham.j35_/?hl=en",
+      "https://x.com/Shubham5_3",
       "https://www.linkedin.com/in/shubham-joshi-471195191/",
       "https://github.com/Shubhamjoshi301",
     ];
@@ -150,19 +150,19 @@ class HomeDesktop extends StatelessWidget {
                 ),
               ),
               Row(
-                mainAxisSize: MainAxisSize.min,
-                children: List.generate(
-                  kSocialIcons.length,
-                  (index) => WidgetAnimator(
-                    child: SocialMediaIconBtn(
-                      icon: kSocialIcons[index],
-                      socialLink: kSocialLinks[index],
-                      height: height * 0.035,
-                      horizontalPadding: width * 0.005,
-                    ),
-                  ),
-                ),
-              ),
+ mainAxisSize: MainAxisSize.min,
+ children: List.generate(
+  kSocialIcons.length,
+  (index) => WidgetAnimator(
+   child: SocialMediaIconBtn(
+    icon: kSocialIcons[index],
+    socialLink: kSocialLinks[index],
+    height: height * 0.035,
+    horizontalPadding: width * 0.005,
+   ),
+  ),
+ ),
+),
             ],
           ),
           Align(

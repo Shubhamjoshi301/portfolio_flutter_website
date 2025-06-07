@@ -3,381 +3,393 @@
   "packages": [
     {
       "name": "animated_text_kit",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/animated_text_kit-4.2.1",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/animated_text_kit-4.2.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "args",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/args-2.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
     },
     {
       "name": "async",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.8.2",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/async-2.12.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.4"
     },
     {
       "name": "boolean_selector",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/boolean_selector-2.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.1"
     },
     {
       "name": "carousel_slider",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/carousel_slider-4.1.1",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/carousel_slider-5.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "characters",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.2.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/characters-1.4.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "charcode",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.4"
     },
     {
       "name": "clock",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/clock-1.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.4"
     },
     {
       "name": "collection",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.16.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.19.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.4"
     },
     {
       "name": "crypto",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/crypto-3.0.6",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.4"
     },
     {
       "name": "cupertino_icons",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/cupertino_icons-1.0.8",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.1"
     },
     {
       "name": "fake_async",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.3.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/fake_async-1.3.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.3"
     },
     {
       "name": "ffi",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/ffi-2.0.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/ffi-2.1.4",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "file",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/file-6.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.7"
     },
     {
       "name": "flutter",
       "rootUri": "file:///C:/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.7"
     },
     {
       "name": "flutter_lints",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.4",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-1.0.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_svg",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_svg-1.1.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_svg-2.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.4"
     },
     {
       "name": "flutter_test",
       "rootUri": "file:///C:/flutter/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.7"
     },
     {
       "name": "flutter_web_plugins",
       "rootUri": "file:///C:/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.7"
     },
     {
       "name": "google_fonts",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/google_fonts-3.0.1",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/google_fonts-6.2.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.14"
     },
     {
       "name": "hovering",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/hovering-1.0.4",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/hovering-1.0.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "http",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.4.0",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.4"
     },
     {
       "name": "http_parser",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.1",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.4"
     },
     {
-      "name": "js",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.4",
+      "name": "leak_tracker",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker-10.0.8",
       "packageUri": "lib/",
-      "languageVersion": "2.16"
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_flutter_testing",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.9",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_testing",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
     },
     {
       "name": "lints",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/lints-1.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "matcher",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.11",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/matcher-0.12.17",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.4"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/material_color_utilities-0.1.4",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/material_color_utilities-0.11.1",
       "packageUri": "lib/",
-      "languageVersion": "2.13"
+      "languageVersion": "2.17"
     },
     {
       "name": "meta",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.7.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.16.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.1",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.9.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "path_drawing",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_drawing-1.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.4"
     },
     {
       "name": "path_parsing",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_parsing-1.0.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/path_parsing-1.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.3"
     },
     {
       "name": "path_provider",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.10",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider-2.1.5",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.4"
     },
     {
       "name": "path_provider_android",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.14",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_android-2.2.17",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.6"
     },
     {
-      "name": "path_provider_ios",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_ios-2.0.9",
+      "name": "path_provider_foundation",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_foundation-2.4.1",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.3"
     },
     {
       "name": "path_provider_linux",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.1.7",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_linux-2.2.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "path_provider_macos",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.6",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.19"
     },
     {
       "name": "path_provider_platform_interface",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-2.0.4",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_platform_interface-2.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "path_provider_windows",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.1.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_windows-2.3.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.2"
     },
     {
       "name": "petitparser",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-5.0.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/petitparser-6.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.16"
+      "languageVersion": "3.5"
     },
     {
       "name": "platform",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/platform-3.1.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/platform-3.1.6",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.2"
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.1.2",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "process",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/process-4.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.0"
     },
     {
       "name": "responsive_builder",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/responsive_builder-0.4.2",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/responsive_builder-0.4.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "scrollable_positioned_list",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/scrollable_positioned_list-0.3.2",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/scrollable_positioned_list-0.3.8",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.15"
     },
     {
       "name": "sky_engine",
       "rootUri": "file:///C:/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.7"
     },
     {
       "name": "source_span",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.2",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.1",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.1"
     },
     {
       "name": "stack_trace",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/stack_trace-1.12.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.4"
     },
     {
       "name": "stream_channel",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/stream_channel-2.1.4",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.3"
     },
     {
       "name": "string_scanner",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/string_scanner-1.4.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.1"
     },
     {
       "name": "term_glyph",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/term_glyph-1.2.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.1"
     },
     {
       "name": "test_api",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.4.9",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.7.4",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.5"
     },
     {
       "name": "typed_data",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.1",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/typed_data-1.4.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.5"
     },
     {
       "name": "url_launcher",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.1.2",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher-6.3.1",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.3"
     },
     {
       "name": "url_launcher_android",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_android-6.0.17",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_android-6.3.16",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.6"
     },
     {
       "name": "url_launcher_ios",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_ios-6.0.17",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_ios-6.3.3",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.4"
     },
     {
       "name": "url_launcher_linux",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-3.0.1",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_linux-3.2.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.3"
     },
     {
       "name": "url_launcher_macos",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-3.0.1",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_macos-3.2.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.3"
     },
     {
       "name": "url_launcher_platform_interface",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-2.0.5",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_platform_interface-2.3.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.1"
     },
     {
       "name": "url_launcher_web",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-2.0.11",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_web-2.4.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.6"
     },
     {
       "name": "url_launcher_windows",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-3.0.1",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_windows-3.1.4",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "vector_graphics",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics-1.1.18",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "vector_graphics_codec",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics_codec-1.1.13",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "vector_graphics_compiler",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics_compiler-1.1.17",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
     },
     {
       "name": "vector_math",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.2",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
-      "name": "win32",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/win32-2.7.0",
+      "name": "vm_service",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-14.3.1",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "web",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/web-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
     },
     {
       "name": "xdg_directories",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.2.0+1",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/xdg_directories-1.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.3"
     },
     {
       "name": "xml",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/xml-6.1.0",
+      "rootUri": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache/hosted/pub.dev/xml-6.5.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.2"
     },
     {
       "name": "portfolio",
@@ -386,7 +398,10 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-07-30T19:16:52.386965Z",
+  "generated": "2025-06-07T05:29:22.999052Z",
   "generator": "pub",
-  "generatorVersion": "2.17.1"
+  "generatorVersion": "3.7.2",
+  "flutterRoot": "file:///C:/flutter",
+  "flutterVersion": "3.29.3",
+  "pubCache": "file:///C:/Users/lenovo/AppData/Local/Pub/Cache"
 }
