@@ -48,7 +48,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Shubham Joshi | Portfolio',
+      title: 'Shubham Joshi | Portfolio new',
       debugShowCheckedModeBanner: false,
       darkTheme: _darkTheme,
       theme: _lightTheme,
